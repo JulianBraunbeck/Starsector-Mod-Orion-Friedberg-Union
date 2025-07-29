@@ -1,0 +1,11 @@
+{
+	"id":"ofu_flarelauncher_super",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"ofu_flarelauncher_super",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

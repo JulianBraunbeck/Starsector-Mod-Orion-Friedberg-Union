@@ -1,0 +1,64 @@
+{
+	"id":"ofu_fighterrocket",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/missile_SRM.png",
+	"size":[8,12],
+	"center":[3,7],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"fadeTime":1, # fadeout duration
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":2500,
+				  "dec":800},
+	#"engineSpec":{"turnAcc":240,
+	#			  "turnRate":120,
+	#			  "acc":400,
+	#			  "dec":400},				  
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,145,75,255],
+						"contrailDuration":.5,
+						"contrailWidthMult":3,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":40,
+					"slowToMaxSpeed":true,
+					"explosionSpec":{"duration":0.12f,
+									 "radius":100,
+									 "coreRadius":75, # full damage within core radius
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":1,
+									 "particleCount":50,
+									 "particleColor":[255,70,0,255],
+									 "explosionColor":[255,165,50,255],
+									 #"useDetailedExplosion":true,
+									 #"useDetailedExplosionColorAlpha":true,
+									 #"detailedExplosionRadius":100,
+									 #"detailedExplosionFlashRadius":250,
+									 #"detailedExplosionFlashDuration":0.5,
+									 #"detailedExplosionFlashColorFringe":[200,125,255,255],
+									 #"detailedExplosionFlashColorCore":[155,155,155,255]
+									 },
+					}
+}

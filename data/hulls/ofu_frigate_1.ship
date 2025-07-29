@@ -1,0 +1,137 @@
+{
+    "hullName": "Argeus",
+    "hullId": "ofu_frigate_1",
+    "hullSize": "FRIGATE",
+    "style": "OFU_ORION",
+    "spriteName": "graphics/ships/ofu_frigate_first.png",
+    "height": 81,
+    "width": 78,
+    "center": [
+        39, 40.5
+    ],
+    "collisionRadius": 66.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 60,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS0001",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 15,
+            "angle": 0,
+            "locations": [
+                    33.5,       -7
+            ]
+        },
+        {
+            "id": "WS0002",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 15,
+            "angle": 0,
+            "locations": [
+                    33.5,        7
+            ]
+        },
+        {
+            "id": "WS0003",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 137,
+            "angle": -46.5,
+            "locations": [
+                    -8.5,      -13
+            ]
+        },
+        {
+            "id": "WS0004",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 137,
+            "angle": 46.5,
+            "locations": [
+                    -8.5,       13
+            ]
+        },
+        {
+            "id": "WS0005",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 216,
+            "angle": 180,
+            "locations": [
+                   -27.5,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -34.5, -24.5
+            ],
+            "length": 32.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 6,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -34.5, 22.5
+            ],
+            "length": 32.5,
+            "width": 6,
+            "angle": -180,
+            "contrailSize": 6,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -33.5, -13
+            ],
+            "length": 25,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 10,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -33.5, 11
+            ],
+            "length": 25,
+            "width": 10,
+            "angle": -180,
+            "contrailSize": 10,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+             -37,      4.5,
+           -32.5,     36.5,
+              -9,     30.5,
+             1.5,     18.5,
+              19,     18.5,
+        
+              33,       16,
+              33,      -16,
+              19,    -18.5,
+             1.5,    -18.5,
+              -9,    -30.5,
+        
+           -32.5,    -36.5,
+             -37,     -4.5
+    # 12 points total.
+    ]
+}

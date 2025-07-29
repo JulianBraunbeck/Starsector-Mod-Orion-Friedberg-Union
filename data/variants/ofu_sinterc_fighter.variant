@@ -1,0 +1,19 @@
+{
+	"quality":1,
+	"displayName":"Advanced Interceptor",
+	"hullId":"ofu_superinterceptor",
+	"variantId":"ofu_sinterc_fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[no_weapon_flux, autorepair, pointdefenseai], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 000":"ofu_fragmg",
+		 		   }
+		},
+	],
+}

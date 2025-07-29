@@ -1,0 +1,87 @@
+{
+    "hullName": "OFU Rocketftr",
+    "hullId": "ofu_rocketftr",
+    "hullSize": "FIGHTER",
+    "style": "OFU_ORION",
+    "spriteName": "graphics/ships/ofu_rckftr.png",
+    "height": 39,
+    "width": 26,
+    "center": [
+        13, 19.5
+    ],
+    "collisionRadius": 35,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 28,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 15,
+            "angle": 0,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      15,     -1.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      15,      1.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -15, -3
+            ],
+            "length": 30,
+            "width": 5,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -15, 3
+            ],
+            "length": 30,
+            "width": 5,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+              14,        3,
+               4,      4.5,
+             -16,     11.5,
+             -16,    -11.5,
+               4,     -4.5,
+        
+              14,       -3
+    ]
+}

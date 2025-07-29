@@ -1,0 +1,12 @@
+{
+  "id": "orion-friedberg-union_jackundor", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name": "Orion-Friedberg Union", # Displayed to the player
+  "author": "Jackundor",
+  "utility": false,
+  "version": { "major": '0', "minor": '8', "patch": '0' },
+  "description": "faction mod indev",
+  "gameVersion": "0.98a-RC5",
+  "jars": [ "jars/OFU.jar" ],
+  "modPlugin": "data.scripts.OFU_ModPlugin",
+  "dependencies": [],
+}

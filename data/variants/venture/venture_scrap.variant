@@ -1,0 +1,19 @@
+{
+    "displayName": "Scrap Drone",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "venture",
+    "hullMods": [
+        "automated",
+        "converted_fighterbay",
+        "degraded_drive_field",
+        "damaged_mounts",
+        "comp_storage",
+        "increased_maintenance",
+        "faulty_auto"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "venture_scrap",
+    "weaponGroups": []
+}

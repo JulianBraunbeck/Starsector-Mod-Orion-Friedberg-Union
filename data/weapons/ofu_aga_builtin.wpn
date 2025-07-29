@@ -1,0 +1,37 @@
+{
+  "id": "ofu_aga_builtin",
+  "specClass": "projectile",
+  "projectileSpecId": "ofu_aga_bi_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/ofu_builtin_base.png",
+  "turretGunSprite": "graphics/weapons/ofu_builtin_recoil.png",
+  "hardpointSprite": "graphics/weapons/ofu_builtin_base.png",
+  "hardpointGunSprite": "graphics/weapons/ofu_builtin_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [RENDER_BARREL_BELOW ],
+  "turretOffsets": [
+    21.5,
+    -6.5,
+    21.5,
+    6.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    32.5,
+    6.5,
+    32.5,
+    -6.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "autocharge": true,
+  "fireSoundTwo": "ofu_aga_builtin"
+}

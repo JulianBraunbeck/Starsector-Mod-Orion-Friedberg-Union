@@ -1,0 +1,127 @@
+{
+    "hullName": "Diomedes",
+    "hullId": "ofu_diomedes",
+    "hullSize": "FRIGATE",
+    "style": "OFU_ORION",
+    "spriteName": "graphics/ships/ofu_ew_frig.png",
+    "height": 110,
+    "width": 98,
+    "center": [
+        49, 55
+    ],
+    "collisionRadius": 86.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 81,
+    "viewOffset": 0,
+    "builtInMods": [
+        "hiressensors",
+        "ecm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                       4,       18
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HARDPOINT",
+            "renderOrderMod": 1,
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                      -3,       30
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HARDPOINT",
+            "renderOrderMod": 2,
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                      -9,       18
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      20,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -52.5, 23.5
+            ],
+            "length": 32,
+            "width": 11,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -52.5, -23.5
+            ],
+            "length": 32,
+            "width": 11,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -52, 0
+            ],
+            "length": 43.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+             -49,    -26.5,
+             -37,      -47,
+           -23.5,      -37,
+             -16,      -37,
+             0.5,    -31.5,
+        
+            10.5,      -19,
+            10.5,      -14,
+            52.5,     -5.5,
+            52.5,      5.5,
+               8,     14.5,
+        
+            -1.5,       34,
+             -12,     33.5,
+             -16,       37,
+           -23.5,       37,
+             -37,       47,
+        
+             -49,     26.5
+    # 16 points total.
+    ]
+}

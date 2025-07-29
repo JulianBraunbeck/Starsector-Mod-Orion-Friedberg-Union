@@ -1,0 +1,16 @@
+{
+
+#collapseopen WEAPONS
+
+#Agamemnon Builtin
+	"ofu_aga_builtin":[
+    {"file":"sounds/sfx_wpn/ofu_agamemnon_builtin_3.ogg","pitch":1,"volume":1},
+	],
+
+# Sniper
+"ofu_sniperfire":
+[
+{"file":"sounds/sfx_wpn/ofu_sniperfire.ogg","pitch":1,"volume":0.5},
+]
+}
+

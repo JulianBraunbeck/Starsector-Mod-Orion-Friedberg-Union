@@ -1,0 +1,25 @@
+{
+	"quality":0.5,
+	"displayName":"Fighter",
+	"hullId":"ofu_rocketftr",
+	"variantId":"ofu_rocketftr_var",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 000":"ofu_fighterrocket",
+		 		   },
+		 },
+		{"mode":"LINKED",
+    		 "weapons":{
+    		 			"WS 001":"lightmg",
+    		 			"WS 002":"lightmg",
+    		 		   },
+    	},
+	],
+}

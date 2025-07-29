@@ -1,0 +1,9 @@
+id,name,faction,desc,script,icon,order
+ofu_market_special,"Ofu
+Market",,"A mysterious vendor that sells unusual ships and equipment
+
+(This market tab is a Placeholder for the Orion-Friedberg Union mod, to give campaign access to it's gear while the campaign features are still wip)",data.scripts.plugins.OFU_special_market_plugin,graphics/factions/OFU_faction_small.png,800
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

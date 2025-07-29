@@ -1,0 +1,44 @@
+{
+	"id":"ofu_sythysi_stage1",
+	"specClass":"missile",
+	"missileType":"FLARE_SEEKER",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[8,8],
+	"center":[4,4],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,150,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"maxFlightTime":16,
+	"engineSpec":{"turnAcc":50,
+				  "turnRate":35,
+				  "acc":100,
+				  "dec":100,
+				  #"maxSpeed":50
+				  },
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"engineColor":[255,150,0,255],
+						"contrailParticleSizeMult":15,
+						"contrailParticleDuration":2,
+						"contrailMaxSpeedMult":-0.1,
+						"contrailAngularVelocityMult":0f,
+						"contrailColor":[255,125,0,35],
+						"glowSizeMult":9,
+						"type":"GLOW" # GLOW or SMOKE
+					},
+				    "width":7.0,
+				    "length":10.0,
+				    "angle":180.0},
+				    ],
+
+	"behaviorSpec":{"behavior":"CUSTOM",
+                    "effectRange":900,
+                    "effectChance":0.3,
+                    },
+
+}
+

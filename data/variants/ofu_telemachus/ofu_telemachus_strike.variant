@@ -1,0 +1,54 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 11,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ofu_telemachus",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ofu_telemachus_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "sabot",
+                "WS 003": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "typhoon",
+                "WS 001": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "heavyneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "railgun",
+                "WS 007": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 008": "vulcan"
+            }
+        }
+    ]
+}

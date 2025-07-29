@@ -1,0 +1,42 @@
+{
+  "id": "ofu_hesniper",
+  "specClass": "projectile",
+  "projectileSpecId": "ofu_hesniper",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/ofu_hesniper_turret_base.png",
+  "turretGunSprite": "graphics/weapons/ofu_hesniper_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/ofu_hesniper_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/ofu_hesniper_hardpoint_recoil.png",
+  "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    21,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+    "muzzleFlashSpec": {
+      "length": 35,
+      "spread": 5,
+      "particleSizeMin": 10,
+      "particleSizeRange": 16,
+      "particleDuration": 0.15,
+      "particleCount": 12,
+      "particleColor": [255,125,60,255]
+      },
+  "autocharge": true,
+  "fireSoundTwo": "ofu_sniperfire"
+}

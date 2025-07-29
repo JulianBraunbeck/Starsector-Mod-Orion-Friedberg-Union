@@ -1,0 +1,36 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "ofu_fr_missile",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ofu_sithon_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "reaper"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "typhoon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "railgun",
+                "WS 001": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "vulcan"}
+        }
+    ]
+}
