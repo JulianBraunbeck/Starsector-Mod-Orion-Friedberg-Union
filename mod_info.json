@@ -1,6 +1,6 @@
 {
   "id": "orion-friedberg-union_jackundor", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
-  "name": "Orion-Friedberg Union", # Displayed to the player
+  "name": "Orion-Friedberg Union", # Displayed to the player wuh
   "author": "Jackundor",
   "utility": false,
   "version": { "major": '0', "minor": '8', "patch": '0' },
