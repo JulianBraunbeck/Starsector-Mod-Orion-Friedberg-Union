@@ -1,6 +1,6 @@
 id,type,text1,text2,text3,text4,notes
-ofu_kinetic_conv,SHIP_SYSTEM,Increases projectile speed and damage for energy and ballistic weapons at the cost of the ships top speed,Offensive,gainst projectile damage and speed at the cost of ship speed,,
-ofu_flarelauncher_super,SHIP_SYSTEM,Launches a powerful flare to distract missiles and fighters,Defensive,Launches a powerful flare,,
+ofu_kinetic_conv,SHIP_SYSTEM,Increases projectile speed and damage for energy and ballistic weapons at the cost of the ships top speed,Offensive,Increases projectile speed and damage for energy and ballistic weapons at the cost of the ships top speed,,
+ofu_flarelauncher_super,SHIP_SYSTEM,Launches a powerful flare to distract missiles and fighters,Defensive,Launches a powerful flare to distract missiles and fighters,,
 ofu_asbolus,SHIP,"The Asbolus class, integrating incomplete Pre-Collapse research on sensor miniaturization and advanced instrumentation, employs cutting-edge systems to accurately track targets at extraordinary ranges. This capability makes it ideal for system patrols, escort missions, and long-range support operations.
 
 Developed during the AI War Interbellum, the Asbolus class exemplifies the technological resurgence of the Union worlds following the chaos of the preceding century.",,,,
