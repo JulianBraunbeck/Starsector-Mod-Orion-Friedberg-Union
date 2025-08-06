@@ -17,17 +17,17 @@ public class OFU_Bombercommand extends BaseHullMod {
     public static float GUIDANCE_IMPROVEMENT = 1f;
     public static float ECCM_CHANCE = 0.5f;
 
-    public static float REPLACEMENT_RATE_PERCENT = 25;
+    //public static float REPLACEMENT_RATE_PERCENT = 25;
 
-    public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+    //public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
-        boolean sMod = isSMod(stats);
-        float rateMalus = REPLACEMENT_RATE_PERCENT;
-        float timeMult = 1f / ((100f - rateMalus) / 100f);
-        if (sMod) {
-            stats.getFighterRefitTimeMult().modifyMult(id, timeMult);
-        }
-    }
+        //boolean sMod = isSMod(stats);
+        //float rateMalus = REPLACEMENT_RATE_PERCENT;
+        //float timeMult = 1f / ((100f - rateMalus) / 100f);
+        //if (sMod) {
+        //    stats.getFighterRefitTimeMult().modifyMult(id, timeMult);
+        //}
+    //}
 
     public void applyEffectsToFighterSpawnedByShip(ShipAPI fighter, ShipAPI ship, String id) {
 
@@ -63,11 +63,11 @@ public class OFU_Bombercommand extends BaseHullMod {
         return null;
     }
 
-    @Override
-    public String getSModDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + (int) REPLACEMENT_RATE_PERCENT + "%";
-        return null;
-    }
+    //@Override
+    //public String getSModDescriptionParam(int index, HullSize hullSize) {
+    //    if (index == 0) return "" + (int) REPLACEMENT_RATE_PERCENT + "%";
+    //    return null;
+    //}
 
 
     @Override

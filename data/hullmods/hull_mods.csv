@@ -7,7 +7,7 @@ Most combat ships install either an Integrated Targeting Unit or a Dedicated Tar
 Combat sensor package,ofu_asbolus_range,,,,,,,,TRUE,,0,0,0,0,data.hullmods.OFU_CombatSensorPackage,"This ship carries an unusually powerful sensor package for it's size.
 
 Increases the range of Ballistic and Energy weapons by %s.","Increases weapon range, more than usual",,graphics/hullmods/ofu_combat_sensors_3.png
-Bomber Command Center,ofu_bombercommand,3,,,"special, standard",Fighters,10000,,,,0,15,20,40,data.hullmods.OFU_Bombercommand,"Equips every fighter of the Carrier with an ECCM package, reducing the chance for missiles launched by fighters to be affected by flares by %s, as well as increasing their top speed by %s, their maneuverability by %s and improving their guidance",Grants fighters ECCM package,reduces fighter repplacement rate by %s.,graphics/hullmods/ofu_bombercenter4.png
+Bomber Command Center,ofu_bombercommand,3,,,"special, standard",Fighters,10000,,,,0,12,20,30,data.hullmods.OFU_Bombercommand,"Equips every fighter of the Carrier with an ECCM package, reducing the chance for missiles launched by fighters to be affected by flares by %s, as well as increasing their top speed by %s, their maneuverability by %s and improving their guidance",Grants fighters ECCM package,,graphics/hullmods/ofu_bombercenter4.png
 Fine-tuned Bay,ofu_advancedbay,,,,,,,,TRUE,,0,0,0,0,data.hullmods.OFU_Advancedbay,"The fine-tuned autoforges and facilities of this carrier grant a wide array of benefits to it's strikecraft
 
 Fighters launched by this ship have their top speed increased by %s and their maneuverability by %s.
