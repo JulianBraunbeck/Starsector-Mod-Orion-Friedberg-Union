@@ -22,7 +22,7 @@ public class OFU_Bombercommand extends BaseHullMod {
     //public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
         //boolean sMod = isSMod(stats);
-        //float rateMalus = REPLACEMENT_RATE_PERCENT;
+        //float rateMalus = REPLACEMENT_RATE_PERCENT;qsd
         //float timeMult = 1f / ((100f - rateMalus) / 100f);
         //if (sMod) {
         //    stats.getFighterRefitTimeMult().modifyMult(id, timeMult);
