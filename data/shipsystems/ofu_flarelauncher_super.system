@@ -1,7 +1,7 @@
 {
 	"id":"ofu_flarelauncher_super",
 	"type":"WEAPON",
-	"aiType":"FLARE",
+	"aiType":"CANISTER_FLAK",
 	
 	"weaponDataId":"ofu_flarelauncher_super",
 	"outOfUsesSound":"gun_out_of_ammo",

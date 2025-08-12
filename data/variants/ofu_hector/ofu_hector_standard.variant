@@ -1,19 +1,21 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 33,
+    "fluxCapacitors": 38,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "ofu_hector",
     "hullMods": [
         "targetingunit",
-        "fluxdistributor"
+        "fluxdistributor",
+        "ballistic_rangefinder",
+        "armoredweapons"
     ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "ofu_hector_standard",
+    "variantId": "mission_SCVE_Mods_ship_8",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS 000": "hephag",
@@ -22,7 +24,7 @@
         },
         {
             "autofire": false,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
                 "WS 018": "harpoonpod",
                 "WS 019": "harpoonpod"
@@ -34,13 +36,7 @@
             "weapons": {
                 "WS 002": "heavyac",
                 "WS 003": "heavyac",
-                "WS 004": "heavyac"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
+                "WS 004": "heavyac",
                 "WS 005": "heavyac",
                 "WS 006": "heavyac",
                 "WS 007": "heavyac"
