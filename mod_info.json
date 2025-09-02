@@ -3,7 +3,7 @@
   "name": "Orion-Friedberg Union", # Displayed to the player wuh wa
   "author": "Jackundor",
   "utility": false,
-  "version": { "major": '0', "minor": '8', "patch": '3' },
+  "version": { "major": '0', "minor": '8', "patch": '4a' },
   "description": "faction mod indev",
   "gameVersion": "0.98a-RC5",
   "jars": [ "jars/OFU.jar" ],
