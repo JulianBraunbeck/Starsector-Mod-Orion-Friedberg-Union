@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 4,
-    "fluxVents": 10,
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
     "goalVariant": true,
     "hullId": "ofu_fr_missile",
     "hullMods": [],

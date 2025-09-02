@@ -14,7 +14,9 @@ Fine-tuned Bay,ofu_advancedbay,,,,,,,,TRUE,,0,0,0,0,data.hullmods.OFU_Advancedba
 
 Fighters launched by this ship have their top speed increased by %s and their maneuverability by %s.
 
-Furthermore their hull integrity is increased by %s and their armor rating by %s, as well as reducing EMP damage taken by %s.",Fighter stat buffs,,graphics/hullmods/ofu_advannced_bay_4.png
+Furthermore their hull integrity is increased by %s and their armor rating by %s, as well as reducing EMP damage taken by %s.
+
+Fighters are also replaced %s faster.",Fighter stat buffs,,graphics/hullmods/ofu_advannced_bay_4.png
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,

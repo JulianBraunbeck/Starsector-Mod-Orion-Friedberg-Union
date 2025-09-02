@@ -1,6 +1,6 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 38,
+    "fluxCapacitors": 28,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "ofu_hector",
@@ -8,11 +8,12 @@
         "targetingunit",
         "fluxdistributor",
         "ballistic_rangefinder",
-        "armoredweapons"
+        "turretgyros",
+        "autorepair"
     ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "mission_SCVE_Mods_ship_8",
+    "variantId": "ofu_hector_standard",
     "weaponGroups": [
         {
             "autofire": true,

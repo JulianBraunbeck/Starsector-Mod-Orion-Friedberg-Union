@@ -16,6 +16,8 @@ public class OFU_Advancedbay extends BaseHullMod {
 
     public static float ARMOR_BONUS = 50f;
 
+    public static float REPLACEMENT_RATE_PERCENT = 15;
+
 
     public void applyEffectsToFighterSpawnedByShip(ShipAPI fighter, ShipAPI ship, String id) {
 
@@ -36,12 +38,20 @@ public class OFU_Advancedbay extends BaseHullMod {
 
     }
 
+    public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+
+        float rateMalus = REPLACEMENT_RATE_PERCENT;
+        float timeMult = 1f / ((100f + rateMalus) / 100f);
+        stats.getFighterRefitTimeMult().modifyMult(id, timeMult);
+    }
+
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) return "" + (int) (FIGHTER_SPEED_BONUS) + "%";
         if (index == 1) return "" + (int) (MANEUVER_BONUS) + "%";
         if (index == 2) return "" + (int) (HULL_BONUS);
         if (index == 3) return "" + (int) (ARMOR_BONUS);
         if (index == 4) return "" + (int) (FLUX_RESISTANCE) + "%";
+        if (index == 5) return "" + (int) (REPLACEMENT_RATE_PERCENT) + "%";
         return null;
     }
 

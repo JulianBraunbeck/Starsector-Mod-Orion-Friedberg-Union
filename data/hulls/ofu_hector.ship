@@ -16,6 +16,9 @@
     ],
     "shieldRadius": 273,
     "viewOffset": 0,
+    "builtInMods": [
+        "armoredweapons"
+    ],
     "builtInWings": [],
     "builtInModules": null,
     "weaponSlots": [

@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 5,
+    "fluxCapacitors": 0,
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "ofu_fr_missile",

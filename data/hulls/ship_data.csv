@@ -3,12 +3,12 @@ Mora,mora,Carrier,Low Tech,damper,15,10000,1250,4000,4000,200,125,3,45,20,10,10,
 Asbolus,ofu_asbolus,Escort Destroyer,Orion,flarelauncher_active,8,5000,550,5000,,300,100,,80,70,50,35,50,400,FRONT,,100,0.4,0.8,,,55,120,125,80,2,40,9,55000,5,15,300,0.25,11,11,,,,,,,,"merc, rare_bp",,0.5,2,3,,ofu_1
 Argeus,ofu_frigate_1,Frigate,Orion,ofu_kinetic_conv,5,1600,250,3000,,250,60,,190,180,160,70,200,250,FRONT,,150,0.3,1.0,,,20,30,40,25,1,25,11,17500,10,20,240,0.25,6,6,,,,,,,,rare_bp,,0.4,2,2,,ofu_2
 Agamemnon,ofu_agamemnon,Line Cruiser,Orion,fortressshield,20,10000,1250,11000,,650,140,,60,30,25,18,22,1750,FRONT,,180,0.3,0.9,,,200,300,125,140,4,35,8,125000,3,12,480,0.25,24,24,,,,,,,,rare_bp,,0.5,2,3,,ofu_3
-Sithon,ofu_fr_missile,Missile Frigate,Orion,fastmissileracks,6,3000,300,2000,,175,45,,140,120,100,45,120,300,OMNI,,120,0.5,0.8,,,20,45,60,30,1,30,10,12000,7,20,240,0.25,6,6,,,,,,,,rare_bp,,0.4,2,3,,ofu_4
-Bellerophon,ofu_bellerophon,Support Battlecarrier,Orion,reservewing,11,3500,550,5000,,250,95,1,70,55,45,25,40,500,FRONT,,110,0.4,1.0,,,70,130,90,60,2,30,9,75000,4,16,360,0.25,12,12,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,0.5,2,3,,ofu_5
+Sithon,ofu_fr_missile,Missile Frigate,Orion,fastmissileracks,6,3000,300,2000,,175,40,,140,120,100,45,120,300,OMNI,,120,0.5,0.9,,,20,45,60,30,1,30,10,12000,7,20,240,0.25,6,6,,,,,,,,rare_bp,,0.4,2,3,,ofu_4
+Bellerophon,ofu_bellerophon,Support Battlecarrier,Orion,reservewing,11,3500,750,5000,,250,95,1,70,55,45,25,40,500,FRONT,,110,0.4,1.0,,,70,130,90,60,2,30,9,75000,4,16,360,0.25,12,12,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,0.5,2,3,,ofu_5
 Diomedes,ofu_diomedes,EW Frigate,Orion,ofu_flarelauncher_super,4,2000,200,2500,,300,35,,160,140,120,60,120,200,OMNI,,180,0.3,0.7,,,15,25,40,25,1,25,10,15000,8,20,240,0.25,5,5,,,,,,,,rare_bp,,0.4,2,2,,ofu_6
 Telemachus,ofu_telemachus,Missile Cruiser,Orion,fastmissileracks,13,8000,900,9000,,500,120,,80,60,45,20,25,1300,OMNI,,120,0.4,1.0,,,150,260,100,120,4,30,8,100000,3,15,420,0.25,15,15,,,,,,,,rare_bp,,0.5,2,3,,ofu_7
-Rhadamanthys,ofu_rhadamanthys,Advanced Carrier,Orion,targetingfeed,24,7000,750,10000,,400,120,2,60,40,30,15,20,1300,OMNI,,120,0.4,0.7,,,180,250,100,120,4,30,8,150000,3,15,420,0.25,24,24,,,,,,,CARRIER,rare_bp,,0.5,2,3,,ofu_8
-Hector,ofu_hector,Battlecruiser,Orion,plasmajets,40,11000,1100,20000,,800,325,,50,40,30,15,20,4000,FRONT,,180,0.4,0.8,,,450,600,300,240,12,20,8,275000,2,20,480,0.25,50,50,,,,,,,,rare_bp,,0.5,2,3,,ofu_9
+Rhadamanthys,ofu_rhadamanthys,Advanced Carrier,Orion,targetingfeed,20,7000,750,10000,,400,120,2,60,40,30,15,20,1300,OMNI,,120,0.4,0.7,,,180,250,100,120,4,30,8,150000,3,15,420,0.25,22,22,,,,,,,CARRIER,rare_bp,,0.5,2,3,,ofu_8
+Hector,ofu_hector,Battlecruiser,Orion,plasmajets,37,11000,1100,20000,,800,325,,50,40,30,15,20,4000,FRONT,,180,0.4,0.8,,,450,600,300,240,12,20,8,275000,3,20,480,0.25,45,45,,,,,,,,rare_bp,,0.5,2,3,,ofu_9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Fräse,ofu_superinterceptor,,Orion,displacer_degraded,,700,100,500,,100,0,,375,750,625,225,500,50,OMNI,,120,0.4,0.8,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,0,,ofu_f1
